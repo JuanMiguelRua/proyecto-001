@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renovaciones</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <!-- Encabezado con barra de navegación -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="imagenes/Logo.webp" alt="Logo de la empresa">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-button">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-button">Servicios</a></li>
+                    <li><a href="#nosotros" class="nav-button">Nosotros</a></li>
+                    <li><a href="#testimonios" class="nav-button">Testimonios</a></li>
+                    <li><a href="#contacto" class="nav-button">Contacto</a></li>
+                    <li><a href="#ubicacion" class="nav-button">Ubicación</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Sección de inicio con imagen de fondo -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-image">
+            <img src="imagenes/construccion logo inicio.png" alt="Imagen destacada">
+        </div>
+        <div class="hero-content">
+            <h1>Innovación, Diseño y Construcción a tu Alcance</h1>
+            <p>Remodelación y adecuación de locales comerciales, chalets, casas y apartamentos.</p>
+            <a href="#contacto" class="boton">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios" class="services-section">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="imagenes/istockphoto-1384317531-612x612.jpg" alt="Renovación de casas y chalets">
+                <h3>Casas y Chalets</h3>
+                <p>Transformamos tu hogar en un espacio más funcional y moderno, adaptado a tus necesidades.</p>
+            </div>
+            <div class="service-item">
+                <img src="imagenes/RECIDENCIA LOGO.jpg" alt="Diseño de interiores">
+                <h3>Interiores</h3>
+                <p>Diseño de espacios funcionales y estéticamente armoniosos para tu hogar o local comercial.</p>
+            </div>
+            <div class="service-item">
+                <img src="imagenes/LOGO CORPORATIVO.jpg" alt="Diseño corporativo">
+                <h3>Corporativo</h3>
+                <p>Diseño arquitectónico e interiorismo para oficinas, auditorios y sucursales bancarias.</p>
+            </div>
+            <div class="service-item">
+                <img src="imagenes/renovacion de oficinas logo.jpg" alt="Renovación de Oficinas">
+                <h3>Renovación de Oficinas</h3>
+                <p>Transformamos espacios corporativos con un diseño moderno y funcional para mejorar la productividad y el bienestar de los empleados.</p>
+            </div>
+            <div class="service-item">
+                <img src="imagenes/logo espacios comerciales.jpg" alt="Espacios Comerciales">
+                <h3>Espacios Comerciales</h3>
+                <p>Diseño y renovación de locales comerciales, optimizando la experiencia de compra de los clientes y aumentando el flujo de tráfico.</p>
+            </div>
+            <div class="service-item">
+                <img src="imagenes/logo de sostenible.webp" alt="Construcción Sostenible">
+                <h3>Construcción Sostenible</h3>
+                <p>Proyectos de construcción eco-amigable que reducen el impacto ambiental, utilizando materiales sostenibles y técnicas de ahorro energético.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección sobre nosotros -->
+    <section id="nosotros" class="about-section">
+        <h2>Promesa de Valor</h2>
+        <p>Somos una empresa dedicada a la gerencia de proyectos y ejecución de obras civiles, cumpliendo con los tiempos acordados y dentro de los presupuestos ofertados.</p>
+        <img src="imagenes/PROMESA LOGO.jpg" alt="Equipo de la empresa">
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonios" class="testimonials-section">
+        <h2>Testimonios</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-item">
+                <p>"Empresa Ejemplo ha transformado nuestra manera de hacer negocios. ¡Altamente recomendados!"</p>
+                <p><strong>- Cliente Satisfecho</strong></p>
+            </div>
+            <div class="testimonial-item">
+                <p>"Su equipo de desarrollo es increíblemente profesional y eficiente."</p>
+                <p><strong>- Otro Cliente Satisfecho</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección de ubicación -->
+    <section id="ubicacion" class="location-section">
+        <h2>Nuestra Ubicación</h2>
+        <div class="map-container">
+            <iframe class="location-map" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.3890477086097!2d-99.16366508469997!3d19.43261132114509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff7f5d9a1bfb%3A0x1b7d2f405f5e0512!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses!2smx!4v1694183089826!5m2!1ses!2smx" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <p class="address">Av. Juárez, Centro Histórico, 06050 Ciudad de México, CDMX, México</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2024 Juan Miguel Rua Ortiz - Todos los derechos reservados</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/people/Juan-Miguel-Rua-Ortiz/pfbid022Qg5eYUs4MLNtuFmGUEpjybCfGQQumFZjJXjy1KJBK21vwvB6LiL5Lq7GvUuR5Wjl/?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">
+                <img src="imagenes/facebook logo.jpg" alt="Facebook">
+            </a>
+            <a href="mailto:example@example.com" aria-label="Gmail">
+                <img src="imagenes/logo gmail.png" alt="Gmail">
+            </a>
+            <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp">
+                <img src="imagenes/wasap logo.png" alt="WhatsApp">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Botones flotantes -->
+    <div class="floating-buttons">
+        <a href="https://www.facebook.com/people/Juan-Miguel-Rua-Ortiz/pfbid022Qg5eYUs4MLNtuFmGUEpjybCfGQQumFZjJXjy1KJBK21vwvB6LiL5Lq7GvUuR5Wjl/?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">
+            <img src="imagenes/facebook logo.jpg" alt="Facebook">
+        </a>
+        <a href="mailto:example@example.com" aria-label="Gmail">
+            <img src="imagenes/logo gmail.png" alt="Gmail">
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp">
+            <img src="imagenes/wasap logo.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    <!-- Botones sociales -->
+<div class="social-links">
+    <a href="javascript:void(0);" onclick="manejarEnlaceSocial('facebook')" aria-label="Facebook">
+        <img src="imagenes/facebook logo.jpg" alt="Facebook">
+    </a>
+    <a href="javascript:void(0);" onclick="manejarEnlaceSocial('gmail')" aria-label="Gmail">
+        <img src="imagenes/logo gmail.png" alt="Gmail">
+    </a>
+</div>
+
+
+</body>
+</html>
